@@ -1,7 +1,7 @@
 '''
 @Author       : lclee
 @Date         : 2020-07-15 10:22:59
-@LastEditTime : 2020-07-18 13:11:43
+@LastEditTime : 2020-07-18 14:10:04
 @LastEditors  : lclee
 @Description  : 
 '''
@@ -112,9 +112,9 @@ if __name__ == "__main__":
 #%%
         print(f'average frame : {1/np.mean(timeList)}')
                     
-        buffer[0][3] = 0x00
-        bufferString = buffer.flatten().tostring()
-        ret = D3XX.writePipe(0x02, bufferString, wrSize)
+        # buffer[0][3] = 0x00
+        # bufferString = buffer.flatten().tostring()
+        # ret = D3XX.writePipe(0x02, bufferString, wrSize)
         D3XX.clearStreamPipe(0x02)
         D3XX.clearStreamPipe(0x82)
         D3XX.close()
