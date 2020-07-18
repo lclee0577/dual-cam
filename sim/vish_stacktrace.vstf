@@ -1,0 +1,13 @@
+# Current time Sun Dec 08 14:23:40 2019
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.4"
+# Version = "2014.12"
+# Date = "Dec  3 2014"
+# Platform = win64
+
+Exception c0000005 has occurred at address 40112f92. Traceback:
+# 0    0x40112f92: 'Mtirpc_Init + 0x55562'
+StackWalk failed 0
+# End of Stack Trace
+

@@ -1,0 +1,2017 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/ZYNQ/10_lcd_rgb_colorbar/lcd_rgb_colorbar.sim
+va_graycounter
+Z0 !s110 1575785506
+!i10b 1
+!s100 FI?[k<oCFi9HWYigXHGcf0
+IdWEY>l[MLPUn7=PGfaloO3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim
+Z3 w1382637282
+Z4 8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/altera_mf.v
+Z5 FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/altera_mf.v
+L0 49136
+Z6 OL;L;10.4;61
+r1
+!s85 0
+31
+Z7 !s108 1575785506.213000
+Z8 !s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/altera_mf.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/altera_mf.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+valt3pram
+R0
+!i10b 1
+!s100 UoB51QU2NzKlzLzJ=bSEL0
+IefB8@TI_4?6Bazo8zfJK<2
+R1
+R2
+R3
+R4
+R5
+L0 47345
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valt_aeq_s4
+R0
+!i10b 1
+!s100 De3U5iKLd2^m>6AP07Bnz1
+InXX?coLM_318F<EP^oJoK3
+R1
+R2
+R3
+R4
+R5
+L0 50087
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valt_cal
+R0
+!i10b 1
+!s100 HKVFfVRahGV>P9g8ALcDQ2
+I1]SZUXbai1k4I`O5YRdf31
+R1
+R2
+R3
+R4
+R5
+L0 49556
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valt_cal_av
+R0
+!i10b 1
+!s100 `49e6]>kWCG=V5NEld^2>3
+I5:KIYjRFLV03UVABP0jF70
+R1
+R2
+R3
+R4
+R5
+L0 49980
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valt_cal_c3gxb
+R0
+!i10b 1
+!s100 gIZgll5KAdQ]QekV=Q^@Z1
+I;z>k94_=SXFGad<ae_:A^2
+R1
+R2
+R3
+R4
+R5
+L0 49783
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valt_cal_mm
+R0
+!i10b 1
+!s100 0IDN8ZmocfW6<eWHU681J0
+I<Oj?hdKR2kGSL3VaaMYC]2
+R1
+R2
+R3
+R4
+R5
+L0 49658
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valt_cal_sv
+R0
+!i10b 1
+!s100 L:j`7SA@o>An>6Uom24o80
+IKNKMa@XZii0@443KnG7KL1
+R1
+R2
+R3
+R4
+R5
+L0 49883
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valt_dfe
+R0
+!i10b 1
+!s100 OG9AL4imc8NAI2_0e7NhH2
+I@7]`k1AFWDhP=Jm7i[6191
+R1
+R2
+R3
+R4
+R5
+L0 50464
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valt_eyemon
+R0
+!i10b 1
+!s100 mZJ5_3f<<Mek08mm9@cM_0
+IFCU4GL;^JIj9]S7X>oz992
+R1
+R2
+R3
+R4
+R5
+L0 50184
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtaccumulate
+R0
+!i10b 1
+!s100 U?_9`Xn3WD5_NI?X20iQD0
+I[FLN;h1LgYn_O5aB]]IMM3
+R1
+R2
+R3
+R4
+R5
+L0 31636
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtclklock
+R0
+!i10b 1
+!s100 n:0R:Z@oZQLiaYJ5lW7PR1
+IA8loGhn9cR5O@?b9=V8fj2
+R1
+R2
+R3
+R4
+R5
+L0 42308
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtddio_bidir
+R0
+!i10b 1
+!s100 K8=bnL@8IU0cmK1DRWDAA0
+I5J9X45ncb8PdzmBzgXQj=1
+R1
+R2
+R3
+R4
+R5
+L0 43748
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtddio_in
+R0
+!i10b 1
+!s100 HZKX`M0:J`jaci<O?iAJZ0
+I0W0L42>WT2QOJEkOX[BGC0
+R1
+R2
+R3
+R4
+R5
+L0 43234
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtddio_out
+R0
+!i10b 1
+!s100 >7F5=QIOT^g>KYk3jfIYd3
+IU<>zlIeIf`SbJj:zi:5ZE2
+R1
+R2
+R3
+R4
+R5
+L0 43497
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtdpram
+R0
+!i10b 1
+!s100 RFUWO1:6UIR1Zd=I^FA?]0
+IEVkoO:LL0dK6Y4nVo7_BX2
+R1
+R2
+R3
+R4
+R5
+L0 43887
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vALTERA_DEVICE_FAMILIES
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 FhER4>?CTY2IImAQ`W5mU3
+I09:a2aM8dd1K<_ZYEWK9h2
+R2
+R3
+R4
+R5
+L0 1344
+R6
+R7
+R8
+R9
+!i113 0
+R10
+n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
+vALTERA_MF_HINT_EVALUATION
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 a=Fe>V8[JB19QF`<JB2a80
+I3O7@l_:a3agW`5G:>>3aZ1
+R2
+R3
+R4
+R5
+L0 1222
+R6
+R7
+R8
+R9
+!i113 0
+R10
+n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
+vALTERA_MF_MEMORY_INITIALIZATION
+R0
+!i10b 1
+!s100 1;fUiNdohROUTkB`ZS<H92
+I62TE__TF:KB^=QZ@bdz;^2
+R1
+R2
+R3
+R4
+R5
+L0 71
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+n@a@l@t@e@r@a_@m@f_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
+valtera_std_synchronizer
+R0
+!i10b 1
+!s100 7[?HRJo41a]bV3me;fe:V3
+I:02^CLlSgAzaj^97<k>RC3
+R1
+R2
+R3
+R4
+R5
+L0 49362
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtera_std_synchronizer_bundle
+R0
+!i10b 1
+!s100 USLWRb^mBmc@IZ^JSdozY1
+IiM^O]MA:PeTU]4?OMBUfn3
+R1
+R2
+R3
+R4
+R5
+L0 49521
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtfp_mult
+R0
+!i10b 1
+!s100 KaM6nc]cEi?0YDMehQ?6@3
+IGR9H?U^Yh3VbQiPi4;zSe1
+R1
+R2
+R3
+R4
+R5
+L0 41421
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtlvds_rx
+R0
+!i10b 1
+!s100 6_C4Jg7In?klcRB[IHC2F1
+IcYKGkg;dM4j6a>l50Jg@S0
+R1
+R2
+R3
+R4
+R5
+L0 23702
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtlvds_tx
+R0
+!i10b 1
+!s100 ;1`3_f``Ne?n3JBo5zU;A0
+IoC?m:?k[L5iAUOClX=`T`3
+R1
+R2
+R3
+R4
+R5
+L0 27282
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtmult_accum
+R0
+!i10b 1
+!s100 SCeEEa1d]?:=lfjQUW6n:3
+IDBkj3_YMjBRFAzI4Uj^L;3
+R1
+R2
+R3
+R4
+R5
+L0 31878
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtmult_add
+R0
+!i10b 1
+!s100 1ZjS@7hDCKmnGKTS^>UR[3
+IZ<9Z3ea?f[9P?4ZoidK]M1
+R1
+R2
+R3
+R4
+R5
+L0 34083
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtparallel_flash_loader
+R0
+!i10b 1
+!s100 80T6cZS[M4RiV9ZWCR;::0
+IlL`QjmnIU0ZI9Va?DMkQo2
+R1
+R2
+R3
+R4
+R5
+L0 52343
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtpll
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SO?n[RkfnA]8Q5:=bzFLh1
+I8EDg]433cn60OQ2jO?foh3
+R2
+R3
+R4
+R5
+L0 21688
+R6
+R7
+R8
+R9
+!i113 0
+R10
+valtserial_flash_loader
+R0
+!i10b 1
+!s100 VYEIbkH31:gie6T>0@V9<1
+Ia0D>bBSgP6nU8^d>LFQJG3
+R1
+R2
+R3
+R4
+R5
+L0 52463
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtshift_taps
+R0
+!i10b 1
+!s100 NAMlf6oN9M3Z3_Be_ZF?O0
+IPS5G6P3DRPZln`0d_?Ce_0
+R1
+R2
+R3
+R4
+R5
+L0 49003
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtsource_probe
+R0
+!i10b 1
+!s100 0H^flEVSMh@bBU^0XYX_e1
+IHL<QTPf0XVYaSz?L;XG<<2
+R1
+R2
+R3
+R4
+R5
+L0 52573
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtsqrt
+R0
+!i10b 1
+!s100 mlG82cW8=Hd1fgBLTNPgV1
+IEZ<B=f:6PP;cJEM@dFE5@3
+R1
+R2
+R3
+R4
+R5
+L0 42106
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtsquare
+R0
+!i10b 1
+!s100 9Eei[ULl^mkbXom>N^bYW1
+I[EXIBdC2@UR;h3RiHBDnS0
+R1
+R2
+R3
+R4
+R5
+L0 49227
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtstratixii_oct
+R0
+!i10b 1
+!s100 KGUlNBc=Gi;Viok]Q?LlS2
+Igo78TV:a99[Vi_XFZCZD;3
+R1
+R2
+R3
+R4
+R5
+L0 52327
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+valtsyncram
+R0
+!i10b 1
+!s100 dGzR1z]M`CFh6=UM4hFOF2
+I8=C=bDD]J?zYR[5<eVfb73
+R1
+R2
+R3
+R4
+R5
+L0 44418
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+varm_m_cntr
+R0
+!i10b 1
+!s100 UefMf4^kW017KKcRl5mSj2
+IocP@2;KeWB9TIl2_fiRk>1
+R1
+R2
+R3
+R4
+R5
+L0 6417
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+varm_n_cntr
+R0
+!i10b 1
+!s100 2BOE3zVZ6LT4M>O2K]EBL0
+I:lFK[6Bik7A9Wg=a0NG5n1
+R1
+R2
+R3
+R4
+R5
+L0 6497
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+varm_scale_cntr
+R0
+!i10b 1
+!s100 IU4XOW;kV@NGTcJKA1<0D2
+IaXGZJa<=fS<]SLVXfGCio1
+R1
+R2
+R3
+R4
+R5
+L0 6579
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vcda_m_cntr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 1Y:6BSj4V;T5gH3BD;Ncd0
+I?LbE8hMPLcW7R@:RjAX_z2
+R2
+R3
+R4
+R5
+L0 14356
+R6
+R7
+R8
+R9
+!i113 0
+R10
+vcda_n_cntr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 NiIFaLZmGX?087gNiD6@l0
+IanhX1:ACe<_AM3FdDV6^R0
+R2
+R3
+R4
+R5
+L0 14437
+R6
+R7
+R8
+R9
+!i113 0
+R10
+vcda_scale_cntr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 _>CjT]@W=A>jaVMcX]Z_J1
+I=_T>jKiR7:^:6d5mZVl1E3
+R2
+R3
+R4
+R5
+L0 14508
+R6
+R7
+R8
+R9
+!i113 0
+R10
+vclk_div
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 KhhWCCCg1dgfQBmF@m`4F1
+IU<U8k@W6PWGlfgn=]eaMI1
+R2
+w1547087753
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/clk_div.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/clk_div.v
+Z11 L0 28
+R6
+!s108 1575785507.052000
+!s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/clk_div.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/clk_div.v|
+!i113 0
+R10
+vcycloneiiigl_post_divider
+R0
+!i10b 1
+!s100 X2P2VHzbWK64;`H:klo2I1
+IRImmF?g@d=Q:NRJNn<1lQ0
+R1
+R2
+R3
+R4
+R5
+L0 18226
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vdcfifo
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 dbIOE;QgZ7R^lYSn`5_6_1
+Ic]8NNcHz1TUFA1G>L[@m^3
+R2
+R3
+R4
+R5
+L0 31500
+R6
+R7
+R8
+R9
+!i113 0
+R10
+vdcfifo_async
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 jX;1VVIkhWiH`4C^gg6me3
+I8aMJgE0O@I:QT4B=<N3JQ0
+R2
+R3
+R4
+R5
+L0 29775
+R6
+R7
+R8
+R9
+!i113 0
+R10
+vdcfifo_dffpipe
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]6e<BMdmCif^6`3Qa1Tdl0
+IUfU?<^Dlf7Z9gZ;`f6@hM1
+R2
+R3
+R4
+R5
+L0 29545
+R6
+R7
+R8
+R9
+!i113 0
+R10
+vdcfifo_fefifo
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 5TzkJd2emHhjiJ@5?TkNP0
+Idc;in3:PO4fJbezB23Zee2
+R2
+R3
+R4
+R5
+L0 29623
+R6
+R7
+R8
+R9
+!i113 0
+R10
+vdcfifo_low_latency
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 l@SPj^6hCeA>NS8NWQQ572
+IU47VJ@HlQ>8YD9Q1zAlJJ0
+R2
+R3
+R4
+R5
+L0 30570
+R6
+R7
+R8
+R9
+!i113 0
+R10
+vdcfifo_mixed_widths
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 VPgQkTE860DUFbmGBnbc62
+I61CG8EnCP267o^2N8DSTi1
+R2
+R3
+R4
+R5
+L0 31188
+R6
+R7
+R8
+R9
+!i113 0
+R10
+vdcfifo_sync
+R0
+!i10b 1
+!s100 RG:oS1F40NFFOXgL59mz12
+I]QB55m:G:Fai>EVBh5hif1
+R1
+R2
+R3
+R4
+R5
+L0 30261
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vdffp
+R0
+!i10b 1
+!s100 `N:3@21P33N<eWgO_]_0d0
+IjFn8jSh2e:3UYedJO3?gL3
+R1
+R2
+R3
+R4
+R5
+L0 2195
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vdummy_hub
+R0
+!i10b 1
+!s100 _NoKgzE5?0PKX53>ZXDn`3
+I3IJ3;]@_Uc7VN5GHm]?hU0
+R1
+R2
+R3
+R4
+R5
+L0 51835
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vflexible_lvds_rx
+R0
+!i10b 1
+!s100 02:Gcb6^@@dZV1TIo<nfW0
+IilZZAhLb10B>5aVkKojg93
+R1
+R2
+R3
+R4
+R5
+L0 25749
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vflexible_lvds_tx
+R0
+!i10b 1
+!s100 <>;Yld:UUG3iYOl5o=<W<1
+IPGAaCc=B;YYUD;o;@G=]32
+R1
+R2
+R3
+R4
+R5
+L0 28985
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vjtag_tap_controller
+R0
+!i10b 1
+!s100 ?]ofIQc5>JzH2bO?VH=J;3
+IY=nm0OgGSi0Y]k3;]Dz4^1
+R1
+R2
+R3
+R4
+R5
+L0 51378
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vlcd
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]INlWih5jK1l23l<TLkOF0
+I6_BeAm32VzEa;bUg`Hz7h1
+R2
+w1575785409
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/lcd.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/lcd.v
+R11
+R6
+!s108 1575785507.143000
+!s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/lcd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/lcd.v|
+!i113 0
+R10
+vlcd_driver
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;HSQWSWlZX7C<LmZIfd_Y2
+IK5lWg14`1jNiJ0m09=g^]2
+R2
+w1541612008
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/lcd_driver.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/lcd_driver.v
+R11
+R6
+!s108 1575785507.224000
+!s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/lcd_driver.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/lcd_driver.v|
+!i113 0
+R10
+vlcell
+R0
+!i10b 1
+!s100 bennFdYA;E0lM[zHEL7e`1
+I>kk4OHa[`1_iC36JjlK>S1
+R1
+R2
+R3
+R4
+R5
+L0 34
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vMF_cycloneiii_pll
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 E03OanA8X5YW7I;nWUZo02
+ImbN`j61X>d6N1bT8aB0Ld2
+R2
+R3
+R4
+R5
+L0 14635
+R6
+R7
+R8
+R9
+!i113 0
+R10
+n@m@f_cycloneiii_pll
+vMF_cycloneiiigl_m_cntr
+R0
+!i10b 1
+!s100 ib1W:VAL;>IG0;Ohl^=aH0
+I05f:9W<2alM]^1WK_hN2d0
+R1
+R2
+R3
+R4
+R5
+L0 17964
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+n@m@f_cycloneiiigl_m_cntr
+vMF_cycloneiiigl_n_cntr
+R0
+!i10b 1
+!s100 5`hZV90j2;U>mAjLY76;60
+I7R:nQz9DO>bY6F^mQ9PS:1
+R1
+R2
+R3
+R4
+R5
+L0 18045
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+n@m@f_cycloneiiigl_n_cntr
+vMF_cycloneiiigl_pll
+R0
+!i10b 1
+!s100 aiXbUX9B9_UHP1OXk`RCn3
+IeD=HJK`7MPPida`oUccQT0
+R1
+R2
+R3
+R4
+R5
+L0 18315
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+n@m@f_cycloneiiigl_pll
+vMF_cycloneiiigl_scale_cntr
+R0
+!i10b 1
+!s100 iY9kPDe;GnH^9Jl6HdB?i2
+In??AN3O=OBOQ8bVX=D8:I0
+R1
+R2
+R3
+R4
+R5
+L0 18116
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+n@m@f_cycloneiiigl_scale_cntr
+vMF_pll_reg
+R0
+!i10b 1
+!s100 ^4iLbBGC<PMVITDcHe]@T1
+I]U@Aff0<kZ3d3VGI`ZSoQ2
+R1
+R2
+R3
+R4
+R5
+L0 2552
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+n@m@f_pll_reg
+vMF_stratix_pll
+R0
+!i10b 1
+!s100 jIS[[?fJzEh;VGLPeoi=40
+I4XZTmH41PX3bJFeKDoamj0
+R1
+R2
+R3
+R4
+R5
+L0 2611
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+n@m@f_stratix_pll
+vMF_stratixii_pll
+R0
+!i10b 1
+!s100 =0gX3F_dei2=AS]UR>1Mz3
+IZP06^L1A^n1B:GkM=zf[k2
+R1
+R2
+R3
+R4
+R5
+L0 6702
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+n@m@f_stratixii_pll
+vMF_stratixiii_pll
+R0
+!i10b 1
+!s100 zhgH3E25TG01k5J>j0=VE2
+IhBR7BHX]CD[4dJm^AW1L12
+R1
+R2
+R3
+R4
+R5
+L0 10533
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+n@m@f_stratixiii_pll
+vparallel_add
+R0
+!i10b 1
+!s100 R:JI^@8R@ojNYJ7TkQn[A2
+I9B[E7__YZfQGOOVddOPMY3
+R1
+R2
+R3
+R4
+R5
+L0 48028
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vpll
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Mle0FQYjdgmkcHa@>j]@c2
+Ine=c@OK45Ej[Pk`K=S;Wa1
+R2
+w1541576193
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/par/ipcore/pll.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/par/ipcore/pll.v
+Z12 L0 39
+R6
+!s108 1575785508.113000
+!s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/par/ipcore/pll.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/par/ipcore/pll.v|
+!i113 0
+R10
+vpll_iobuf
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 dk0jNB7_dBSdh`GW9TaD02
+Igm?[8FkjzbiLfGmIL3WA>0
+R2
+R3
+R4
+R5
+L0 2228
+R6
+R7
+R8
+R9
+!i113 0
+R10
+vrd_id
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 W_HAGbVR@cV@lMQ`>MS=>3
+I5ECQnJOI32zSNfF?KeG3H2
+R2
+w1575785456
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/rd_id.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/rd_id.v
+R11
+R6
+!s108 1575785507.311000
+!s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/rd_id.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/lcd/rd_id.v|
+!i113 0
+R10
+vrdfifo
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 mYn>dAGPMd6Phl=>[[_d@1
+I7B9dfa7jl8EAaV3;Mm;]l0
+R2
+w1529492536
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/rdfifo.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/rdfifo.v
+R12
+R6
+!s108 1575785507.477000
+!s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/rdfifo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/rdfifo.v|
+!i113 0
+R10
+vscfifo
+R0
+!i10b 1
+!s100 9nAQ?3;9zNSDfNGa:GzXI1
+I>PAN[b_NL46jIhWTNI5dz3
+R1
+R2
+R3
+R4
+R5
+L0 48197
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vsdr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 <hH^Tz5YEEz6h^U`^ehgP2
+I;mC9N?eA3zOn?5k;oe>QP2
+R2
+w1529541570
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/sdr.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/sdr.v
+FE:\Intel_EP4CE10\Board_SourceCode\dual_ov5640_lcd\dual_ov5640_lcd_v4\sim\tb\sdr_parameters.h
+L0 48
+R6
+!s108 1575785506.797000
+!s107 E:\Intel_EP4CE10\Board_SourceCode\dual_ov5640_lcd\dual_ov5640_lcd_v4\sim\tb\sdr_parameters.h|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/sdr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/sdr.v|
+!i113 0
+R10
+vsdram_cmd
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 e6S8f7]CF1<]k=7W=l0=d0
+IP8_`[`9j[ObTeM`A=K4K12
+R2
+w1531789117
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_cmd.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_cmd.v
+Z13 FE:\Intel_EP4CE10\Board_SourceCode\dual_ov5640_lcd\dual_ov5640_lcd_v4\rtl\sdram\sdram_para.v
+Z14 L0 22
+R6
+!s108 1575785507.558000
+!s107 E:\Intel_EP4CE10\Board_SourceCode\dual_ov5640_lcd\dual_ov5640_lcd_v4\rtl\sdram\sdram_para.v|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_cmd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_cmd.v|
+!i113 0
+R10
+vsdram_controller
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 AYX=_TgCoPIe1:QV^l9B33
+I>?XhiQCeJ=SFXW48l`nTk0
+R2
+w1575513458
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_controller.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_controller.v
+R14
+R6
+!s108 1575785507.643000
+!s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_controller.v|
+!i113 0
+R10
+vsdram_ctrl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?Vm53j^M2:R:cgK^h[WXH1
+Im;zV6iXG=jR99d7lWb9F82
+R2
+Z15 w1531788800
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_ctrl.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_ctrl.v
+R13
+R14
+R6
+!s108 1575785507.714000
+!s107 E:\Intel_EP4CE10\Board_SourceCode\dual_ov5640_lcd\dual_ov5640_lcd_v4\rtl\sdram\sdram_para.v|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_ctrl.v|
+!i113 0
+R10
+vsdram_data
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 LEg;bE[C?;kL<O[MURKWO2
+I8`kWEUoRKcG[gohK6cT0^0
+R2
+R15
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_data.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_data.v
+R13
+R14
+R6
+!s108 1575785507.795000
+!s107 E:\Intel_EP4CE10\Board_SourceCode\dual_ov5640_lcd\dual_ov5640_lcd_v4\rtl\sdram\sdram_para.v|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_data.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_data.v|
+!i113 0
+R10
+vsdram_fifo_ctrl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 kC>dz;`[l<:jo7IiE_QV60
+IA66lIN_ABlH=g@@[c2dU_2
+R2
+w1575777513
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_fifo_ctrl.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_fifo_ctrl.v
+R14
+R6
+!s108 1575785507.875000
+!s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_fifo_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_fifo_ctrl.v|
+!i113 0
+R10
+vsdram_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 JgJmjXLWJ4Ih=Z>ojVBnC0
+IhZBWdYZG^I4@^4NYLVeFX3
+R2
+w1575787047
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/sdram_tb.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/sdram_tb.v
+L0 23
+R6
+!s108 1575787051.474000
+!s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/sdram_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/sim/tb/sdram_tb.v|
+!i113 0
+R10
+vsdram_top
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 2>zQf`A3d5BmA:ZCCazoS1
+IALSH:SJaU?;gEd4OUkUUJ2
+R2
+w1575773393
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_top.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_top.v
+R14
+R6
+!s108 1575785508.024000
+!s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/sdram_top.v|
+!i113 0
+R10
+vsignal_gen
+R0
+!i10b 1
+!s100 6Ub;>1_5c8aa;Za=JL09e2
+IgV<mGVANdiS?PzFX:nYX[0
+R1
+R2
+R3
+R4
+R5
+L0 50811
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vsld_signaltap
+R0
+!i10b 1
+!s100 `^3=Si6]2^Wa9i=NG;7A92
+IijG[E>8=e@Pk8_S8GE7Zz0
+R1
+R2
+R3
+R4
+R5
+L0 52219
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vsld_virtual_jtag
+R0
+!i10b 1
+!s100 [1XZlI1HHIkc:b4UAS2Bc1
+ILh?a<M:cI2Vz;WFf_fgE11
+R1
+R2
+R3
+R4
+R5
+L0 52092
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vsld_virtual_jtag_basic
+R0
+!i10b 1
+!s100 YTPka:zjzVSUB[A:Lm9c51
+IG4>im3HFYf`mN2=D33S680
+R1
+R2
+R3
+R4
+R5
+L0 52495
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstratix_lvds_rx
+R0
+!i10b 1
+!s100 obz3JRAQ4omo1];QCkIEB2
+Ia>khm@>JM=WWG2o[J?JGF3
+R1
+R2
+R3
+R4
+R5
+L0 24912
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstratix_tx_outclk
+R0
+!i10b 1
+!s100 _UbP_NNjcj1e]_o;QFYB13
+I0j_CceJm[h_]UBCP5KTij1
+R1
+R2
+R3
+R4
+R5
+L0 28776
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstratixgx_dpa_lvds_rx
+R0
+!i10b 1
+!s100 P[:73>kEF[ozl>YHlW=^L2
+I5=@]O4H6FdXWejIA6zaM^0
+R1
+R2
+R3
+R4
+R5
+L0 25020
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstratixii_lvds_rx
+R0
+!i10b 1
+!s100 6>addN;Ez_lka]:JHg7?K2
+IJ[LdOfA[M5i2ZA7V:>T4d1
+R1
+R2
+R3
+R4
+R5
+L0 25423
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstratixii_tx_outclk
+R0
+!i10b 1
+!s100 Y8hf6VNAU>J_?4L=a^=<M3
+IoRP8:CYQY=_5kJ6SdWlBY0
+R1
+R2
+R3
+R4
+R5
+L0 28884
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstratixiii_lvds_rx
+R0
+!i10b 1
+!s100 1OHER8A6UGf^0PJj^2zgc3
+IVLoP?Zn^ZZ3W^bWE=DEWN1
+R1
+R2
+R3
+R4
+R5
+L0 26222
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstratixiii_lvds_rx_channel
+R0
+!i10b 1
+!s100 ho8;NC0RTagzKBj<<FO;m0
+IUXS?7hCci_`]5?PjUeHjA1
+R1
+R2
+R3
+R4
+R5
+L0 26404
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstratixiii_lvds_rx_dpa
+R0
+!i10b 1
+!s100 gRfz=KS_o>1GS:DRM0UF]1
+IPT]B@iDiNg2aX@ga[YU^Y0
+R1
+R2
+R3
+R4
+R5
+L0 27013
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstratixv_local_clk_divider
+R0
+!i10b 1
+!s100 L0`K5<5Xfg84YiQMQ0WKk2
+IRj3jI3ifFg3DSRVL6I`e_2
+R1
+R2
+R3
+R4
+R5
+L0 28682
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstx_m_cntr
+R0
+!i10b 1
+!s100 ]mNcUEi9b=oUDaFoRJMm02
+I:^BED:bVhhjVbei]SzHd_3
+R1
+R2
+R3
+R4
+R5
+L0 2254
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstx_n_cntr
+R0
+!i10b 1
+!s100 @Ah4lKEZ1Rd1UC4=5B;h`2
+Io7=?`Z>ikaJG8Z7E5COl@1
+R1
+R2
+R3
+R4
+R5
+L0 2332
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vstx_scale_cntr
+R0
+!i10b 1
+!s100 ;e]RgmVkGETcOb:XlC3O:1
+IG^:X9bkMhDKK8nKR;_N4h3
+R1
+R2
+R3
+R4
+R5
+L0 2417
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vttn_m_cntr
+R0
+!i10b 1
+!s100 2OmWMI8G<WFToI_I9jC3M2
+IdXlSSEU=VTiC@aMAY^EbT2
+R1
+R2
+R3
+R4
+R5
+L0 10254
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vttn_n_cntr
+R0
+!i10b 1
+!s100 SB5IH?MR<[ZQR?0=^J1AN2
+IKoU2kYzn0S;OP8SiU>d4P1
+R1
+R2
+R3
+R4
+R5
+L0 10335
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vttn_scale_cntr
+R0
+!i10b 1
+!s100 nSWM0Nk=zn@b51SRfW@z31
+I7PFHzVXh49YXdjY4CS8nZ1
+R1
+R2
+R3
+R4
+R5
+L0 10406
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vwrfifo
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 BAPUk^]O:13mfgbJN0TUi0
+IGFDFTUXd1e7H_4[M5e@V]0
+R2
+w1529492557
+8E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/wrfifo.v
+FE:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/wrfifo.v
+R12
+R6
+!s108 1575785507.392000
+!s107 E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/wrfifo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Intel_EP4CE10/Board_SourceCode/dual_ov5640_lcd/dual_ov5640_lcd_v4/rtl/sdram/wrfifo.v|
+!i113 0
+R10
