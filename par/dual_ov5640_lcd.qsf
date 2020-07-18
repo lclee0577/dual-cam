@@ -43,29 +43,9 @@ set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:39:54  DECEMBER 10, 2019"
 set_global_assignment -name LAST_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
-set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_top.v
-set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_para.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name VERILOG_FILE ../rtl/dual_ov5640_lcd.v
-set_global_assignment -name QIP_FILE ../rtl/pll.qip
-set_global_assignment -name VERILOG_FILE ../rtl/lcd/lcd.v
-set_global_assignment -name VERILOG_FILE ../rtl/lcd/clk_div.v
-set_global_assignment -name VERILOG_FILE ../rtl/lcd/lcd_driver.v
-set_global_assignment -name VERILOG_FILE ../rtl/lcd/rd_id.v
-set_global_assignment -name VERILOG_FILE ../rtl/ov5640/picture_size.v
-set_global_assignment -name VERILOG_FILE ../rtl/ov5640/ov5640_dri.v
-set_global_assignment -name VERILOG_FILE ../rtl/ov5640/i2c_ov5640_rgb565_cfg.v
-set_global_assignment -name VERILOG_FILE ../rtl/ov5640/OV5640_capture_data.v
-set_global_assignment -name VERILOG_FILE ../rtl/ov5640/i2c_dri.v
-set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_controller.v
-set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_fifo_ctrl.v
-set_global_assignment -name QIP_FILE ../rtl/sdram/rdfifo.qip
-set_global_assignment -name QIP_FILE ../rtl/sdram/wrfifo.qip
-set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_cmd.v
-set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_ctrl.v
-set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_data.v
 set_location_assignment PIN_E1 -to sys_clk
 set_location_assignment PIN_C11 -to sys_rst_n
 set_location_assignment PIN_B14 -to sdram_clk
@@ -170,7 +150,6 @@ set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
-set_global_assignment -name VERILOG_FILE ../rtl/lcd/lcd_disply.v
 set_location_assignment PIN_N11 -to led[0]
 set_location_assignment PIN_P11 -to led[1]
 set_location_assignment PIN_N12 -to led[2]
@@ -227,4 +206,30 @@ set_location_assignment PIN_L6 -to TXE_N_i
 set_location_assignment PIN_P6 -to WAKEUP_o
 set_location_assignment PIN_N5 -to WR_N_o
 set_location_assignment PIN_T8 -to usb_en
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name VERILOG_FILE ../rtl/ft60x_top.v
+set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_top.v
+set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_para.v
+set_global_assignment -name VERILOG_FILE ../rtl/dual_ov5640_lcd.v
+set_global_assignment -name QIP_FILE ../rtl/pll.qip
+set_global_assignment -name VERILOG_FILE ../rtl/lcd/lcd.v
+set_global_assignment -name VERILOG_FILE ../rtl/lcd/clk_div.v
+set_global_assignment -name VERILOG_FILE ../rtl/lcd/lcd_driver.v
+set_global_assignment -name VERILOG_FILE ../rtl/lcd/rd_id.v
+set_global_assignment -name VERILOG_FILE ../rtl/ov5640/picture_size.v
+set_global_assignment -name VERILOG_FILE ../rtl/ov5640/ov5640_dri.v
+set_global_assignment -name VERILOG_FILE ../rtl/ov5640/i2c_ov5640_rgb565_cfg.v
+set_global_assignment -name VERILOG_FILE ../rtl/ov5640/OV5640_capture_data.v
+set_global_assignment -name VERILOG_FILE ../rtl/ov5640/i2c_dri.v
+set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_controller.v
+set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_fifo_ctrl.v
+set_global_assignment -name QIP_FILE ../rtl/sdram/rdfifo.qip
+set_global_assignment -name QIP_FILE ../rtl/sdram/wrfifo.qip
+set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_cmd.v
+set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_ctrl.v
+set_global_assignment -name VERILOG_FILE ../rtl/sdram/sdram_data.v
+set_global_assignment -name VERILOG_FILE ../rtl/lcd/lcd_disply.v
+set_global_assignment -name SIGNALTAP_FILE output_files/stp1.stp
+set_location_assignment PIN_G2 -to CLK_i
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

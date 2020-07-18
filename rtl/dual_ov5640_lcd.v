@@ -52,14 +52,39 @@ module dual_ov5640_lcd(
     output [1:0]  sdram_dqm  ,  //SDRAM 数据掩码
     output [12:0] sdram_addr ,  //SDRAM 地址
     inout  [15:0] sdram_data ,  //SDRAM 数据    
-    //LCD                   
-    output        lcd_hs     ,  //LCD 行同步信号
-    output        lcd_vs     ,  //LCD 场同步信号
-    output        lcd_de     ,  //LCD 数据输入使能
-    inout  [15:0] lcd_rgb    ,  //LCD RGB565颜色数据
-    output        lcd_bl     ,  //LCD 背光控制信号
-    output        lcd_rst    ,  //LCD 复位信号
-    output        lcd_pclk      //LCD 采样时钟
+    // //LCD                   
+    // output        lcd_hs     ,  //LCD 行同步信号
+    // output        lcd_vs     ,  //LCD 场同步信号
+    // output        lcd_de     ,  //LCD 数据输入使能
+    // inout  [15:0] lcd_rgb    ,  //LCD RGB565颜色数据
+    // output        lcd_bl     ,  //LCD 背光控制信号
+    // output        lcd_rst    ,  //LCD 复位信号
+    // output        lcd_pclk   ,  //LCD 采样时钟
+
+
+
+//////////////////////////////////////////////
+    output [2:0]           led,
+//usb
+
+    output                 usb_en,//power enable    
+    // FIFO interface     
+    input                  CLK_i,
+    inout [31:0]           DATA_io,
+    inout [3:0]            BE_io,
+    input                  RXF_N_i,   // ACK_N
+    input                  TXE_N_i,
+    output                 OE_N_o,
+    output                 WR_N_o,    // REQ_N
+    output                 SIWU_N_o,
+    output                 RD_N_o,
+    output                 WAKEUP_o,
+    output [1:0]           GPIO_o
+
+
+
+
+
     );
 
 //wire define
@@ -107,36 +132,38 @@ pll u_pll(
     .locked             (locked)
     );
 
-//例化LCD顶层模块
-lcd u_lcd(
-    .clk                (clk_100m_lcd),
-    .rst_n              (rst_n),
-    .rd_h_pixel         (cmos_h_pixel),         
-    .lcd_hs             (lcd_hs),
-    .lcd_vs             (lcd_vs),
-    .lcd_de             (lcd_de),
-    .lcd_rgb            (lcd_rgb),
-    .lcd_bl             (lcd_bl),
-    .lcd_rst            (lcd_rst),
-    .lcd_pclk           (lcd_pclk),       
-    .rd_data            (rd_data),
-    .rd_en              (rd_en),
-    .clk_lcd            (clk_lcd),          //LCD驱动时钟
-    .ID_lcd             (ID_lcd)            //LCD ID
-    );
+// //例化LCD顶层模块
+    // lcd u_lcd(
+    //     .clk                (clk_100m_lcd),
+    //     .rst_n              (rst_n),
+    //     .rd_h_pixel         (cmos_h_pixel),         
+    //     .lcd_hs             (lcd_hs),
+    //     .lcd_vs             (lcd_vs),
+    //     .lcd_de             (lcd_de),
+    //     .lcd_rgb            (lcd_rgb),
+    //     .lcd_bl             (lcd_bl),
+    //     .lcd_rst            (lcd_rst),
+    //     .lcd_pclk           (lcd_pclk),       
+    //     .rd_data            (rd_data),
+    //     .rd_en              (rd_en),
+    //     .clk_lcd            (clk_lcd),          //LCD驱动时钟
+    //     .ID_lcd             (ID_lcd)            //LCD ID
+    //     );
     
 //摄像头图像分辨率设置模块
-picture_size u_picture_size (
-    .rst_n              (rst_n),
+// picture_size u_picture_size (
+    //     .rst_n              (rst_n),
 
-    .ID_lcd             (ID_lcd),           //LCD的ID，用于配置摄像头的图像大小
-                        
-    .cmos_h_pixel       (cmos_h_pixel  ),   //摄像头水平方向分辨率 
-    .cmos_v_pixel       (cmos_v_pixel  ),   //摄像头垂直方向分辨率  
-    .total_h_pixel      (total_h_pixel ),   //用于配置HTS寄存器
-    .total_v_pixel      (total_v_pixel ),   //用于配置VTS寄存器
-    .sdram_max_addr     (sdram_max_addr)    //sdram读写的最大地址
-    );  
+    //     .ID_lcd             (ID_lcd),           //LCD的ID，用于配置摄像头的图像大小
+                            
+    //     .cmos_h_pixel       (cmos_h_pixel  ),   //摄像头水平方向分辨率 
+    //     .cmos_v_pixel       (cmos_v_pixel  ),   //摄像头垂直方向分辨率  
+    //     .total_h_pixel      (total_h_pixel ),   //用于配置HTS寄存器
+    //     .total_v_pixel      (total_v_pixel ),   //用于配置VTS寄存器
+    //     .sdram_max_addr     (sdram_max_addr)    //sdram读写的最大地址
+    //     );  
+
+
 
 //OV5640 0摄像头驱动
 ov5640_dri u0_ov5640_dri(
@@ -241,4 +268,30 @@ sdram_top u_sdram_top(
     .sdram_dqm          (sdram_dqm)         //SDRAM 数据掩码
     );
 
+
+
+assign cmos_h_pixel   = 13'd2560;
+assign cmos_v_pixel   = 13'd1920;
+assign total_h_pixel  = 13'd2580;
+assign total_v_pixel  = 13'd1940;
+assign sdram_max_addr = 24'h4B0000;
+
+
+ft60x_top u_ft60x_top(
+.Rstn_i             (rst_n & sdram_init_done),//fpga reset
+.USBSS_EN           (usb_en),//power enable    
+.CLK_i              (CLK_i     ),
+.DATA_io            (DATA_io   ),
+.BE_io              (BE_io     ),
+.RXF_N_i            (RXF_N_i   ),   // ACK_N
+.TXE_N_i            (TXE_N_i   ),
+.OE_N_o             (OE_N_o    ),
+.WR_N_o             (WR_N_o    ),    // REQ_N
+.SIWU_N_o           (SIWU_N_o  ),
+.RD_N_o             (RD_N_o    ),
+.WAKEUP_o           (WAKEUP_o  ),
+.GPIO_o             (GPIO_o    ),
+.LED3bit            (led       ),//
+
+);
 endmodule 
